@@ -1,5 +1,7 @@
 # Árvore Binária Interativa
 
+![Demonstração da Árvore Binária](preview.png)
+
 Uma aplicação web desenvolvida para oferecer uma visualização intuitiva e dinâmica do funcionamento de Árvores Binárias. Desenvolvida como uma atividade acadêmica.
 
 ## 🚀 Funcionalidades
@@ -18,6 +20,4 @@ Uma aplicação web desenvolvida para oferecer uma visualização intuitiva e di
 
 ## 💻 Como usar localmente
 
-1. Clone o repositório ou baixe os arquivos.
-   ```bash
-   git clone
+1.Baixe os arquivos e abra o arquivo "Index.html" em seu navegador.
