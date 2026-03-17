@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Árvore Binária Interativa</title>
+    <link rel="stylesheet" href="css/tree.css">
+</head>
+<body>
+    <div class="container">
+        <label for="value" style="color: #FFD700; font-weight: bold;">Insira um número:</label>
+        <input type="text" id="value" placeholder="Ex: 10, 5, 20">
+        <button onclick="makeTree()">Adicionar</button>
+        <button onclick="randomizeTree()">Aleatório</button>
+        <button onclick="clearTree()" style="background-color: #ff4c4c; color: white;">Desfazer Tudo</button>
+        <br><br>
+        <button onclick="print()">Percorrer (Print)</button>
+        <button onclick="showSize()">Tamanho</button>
+        <button onclick="showHeight()">Altura</button>
+    </div>
+    <div class="binaryTree" id="binaryTree"></div>
+
+    <script src="js/node.js"></script>
+    <script src="js/binaryTree.js"></script>
+    <script src="js/tree.js"></script>
+</body>
+</html>
